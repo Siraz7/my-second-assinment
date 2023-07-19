@@ -18,7 +18,7 @@ body{
 }
 body p{
     color: #534C64;
-    font-size: 18px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     
@@ -258,4 +258,60 @@ margin-left: 300px;
     color: #FF7DC1;
     border: 1px solid #1D94F9;
     border-radius: 10px;
+}
+
+
+.footer-container{
+    background-color: #0B0223;
+   
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.footer-img{
+    width: 40px;
+    height: 30px;
+   
+}
+.footer-title{
+    color: white;
+}
+.footer-title{
+    display: flex;
+    gap: 30px;
+    color: white;
+    justify-content: center;
+
+}
+.social{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+.social img{
+    width: 40px;
+    height: 30px;
+
+    
+}
+.footer-sub{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 40px;
+  
+}
+.footer-sub p{
+    color: #FFF;
+}
+.foote-terms p{
+    color: #FFF;
+    text-align: center;
 }
