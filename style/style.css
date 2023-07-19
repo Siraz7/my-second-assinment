@@ -1,4 +1,173 @@
+
+*(
+    font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+)
+
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+   
+}
+body p{
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1175px;
+    align-items: center;
+    
+}
+
+.nav-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 200px;
+}
+.nav-img{
+    width: 40px;
+    height: 30px;
+}
+.nav-items ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    color: #3C354F;
+    font-size: 18px;
+    text-align: center;
+}
+.nav-items a{
+    text-decoration: none;
+}
+.nav-items-icon{
+    background-color: rgba(11, 2, 35, 0.10);;
+    width: 200px;
+    height: 30px;
+    text-align: left;
+    padding: 5px;
+   
+}
+.btn-1{
+    background-color: #FF42A5;
+    color: #FFFFFF;
+    width: 80px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+}
+.btn-2{
+    background-color: #4EC5F7;
+    color: #FFFFFF;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+}
+.banner-container{
+    background-color: #FFFFFF;
+    display: flex;
+  
+}
+.banner-title-1{
+    color: #8758F1;
+    font-size: 70px;
+    font-weight: 800px;
+}
+.banner-titele{
+   
+    color: #0B0223;
+    font-style: normal;
+    font-weight: 600;
+    
+
+}
+.banner-left{
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+.banner-img img{
+    width: 400px;
+    height: 400px;
+}
+.banner-img{
+    margin-left: 320px;
+}
+/* gamer-container section */
+
+.gamer-container{
+ display: flex;
+ margin-top: 50px;
+ margin-left: 200px;
+}
+.gamer-container img{
+    width: 450px;
+    height: 400px;
+}
+.gamer-right{
+    margin-left: 150px;
+    text-align: right;
+    margin-right: 200px;
+}
+.right-title{
+    color: #D679D9;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+
+}
+.btn-3{
+    background-color: #FF42A5;
+    color: #FFFFFF;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+}
+.right-h3{
+    color: #696277;
+    
+}
+
+/* funny container */
+.funny-title{
+    display: flex;
+    justify-content: center;
+}
+
+.funny-container{
+    margin: 152px;
+
+}
+.funny-img-container{
+    display: flex;
+    gap: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    
+}
+.funny-img-container img{
+    width: 220px;
+    height:320px;
+    border-radius: 15px;
+    margin-right: 10px;
+  
+}
+.funny-img-container p{
+    text-align: left;
+    font-size: 10px;
 }
